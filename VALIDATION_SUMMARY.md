@@ -26,9 +26,9 @@ This document summarizes validation results without exposing test code, implemen
 
 **Test Suites:**
 
-1. **EVS (Evidence Validation Suite)** - Tests evidence generation and provenance
+1. **EVS (Exocortical Validation Suite)** - Tests emergent architectural properties
 2. **AVS (Architectural Validation Suite)** - Tests architectural invariants
-3. **CTS (Constraint Testing Suite)** - Tests constraint enforcement
+3. **CTS (Conformance Test Suite)** - Tests conformance levels
 
 **All suites frozen at v1.0.0**
 
