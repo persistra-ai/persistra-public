@@ -36,7 +36,7 @@ This document summarizes validation results without exposing test code, implemen
 
 **Status:** ✅ **Validated with Production Models**
 
-- **Claude 3.5 Sonnet** - Full test suite passing
+- **Claude 3 Haiku** - Full test suite passing
 - **Llama 3.1** - Cross-model continuity validated
 - **Model swap continuity** - Proven across different model families
 
