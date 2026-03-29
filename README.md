@@ -16,6 +16,8 @@ PCS does not try to make models smarter, preserve what's inside one model to tra
 
 This is not an incremental improvement to model-centric architecture. It's a different architectural premise.
 
+**→ If you want to understand the cognitive leap this requires, read [SUBSTRATE_FIRST_THINKING.md](SUBSTRATE_FIRST_THINKING.md) before continuing.**
+
 ---
 
 **Persistra is a deterministic cognitive control plane for AI systems.**
@@ -274,16 +276,21 @@ Request NDA access at research@persistra.ai. Qualified engineering teams receive
 
 ```
 persistra-public/
-├── README.md                    # This file
-├── WRONG_FRAME_RIGHT_FRAME.md  # Read this if you're about to suggest improvements
-├── ARCHITECTURE_OVERVIEW.md     # Conceptual architecture (no mechanisms)
-├── WHY_NOT_RAG.md              # Distinction from RAG
-├── CAPABILITY_MAP.md           # What PCS covers
-├── VALIDATION_SUMMARY.md       # Test results (no code)
-└── NDA_ACCESS.md               # How to request full access
+├── README.md                       # This file
+├── SUBSTRATE_FIRST_THINKING.md    # How to think substrate-first (start here)
+├── WRONG_FRAME_RIGHT_FRAME.md     # Common misinterpretations and corrections
+├── ARCHITECTURE_OVERVIEW.md        # Conceptual architecture (no mechanisms)
+├── WHY_NOT_RAG.md                 # Distinction from RAG
+├── CAPABILITY_MAP.md              # What PCS covers
+├── VALIDATION_SUMMARY.md          # Test results (no code)
+└── NDA_ACCESS.md                  # How to request full access
 ```
 
-**→ If you're evaluating PCS and about to suggest improvements, read [WRONG_FRAME_RIGHT_FRAME.md](WRONG_FRAME_RIGHT_FRAME.md) first.**
+**Reading order for evaluators:**
+1. **SUBSTRATE_FIRST_THINKING.md** - Understand the cognitive leap
+2. **ARCHITECTURE_OVERVIEW.md** - See the architectural invariants
+3. **VALIDATION_SUMMARY.md** - Review the empirical evidence
+4. **WRONG_FRAME_RIGHT_FRAME.md** - Before suggesting improvements
 
 ---
 
