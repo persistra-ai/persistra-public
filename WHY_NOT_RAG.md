@@ -55,7 +55,19 @@ This is the most common question from technical evaluators. The answer is no, bu
 
 ## The Fundamental Difference
 
-### RAG: Augmentation
+### The Architectural Premise Gap
+
+**Most people interpret PCS as "RAG plus governance" because they assume both systems are model-centric.**
+
+That's the wrong frame.
+
+**RAG is model-centric:** It assumes the model is the cognitive core and retrieval supports the model.
+
+**PCS is substrate-centric:** It assumes cognition lives in the substrate and the model is an interchangeable reasoning engine.
+
+This isn't a feature difference. It's a different architectural starting point.
+
+### RAG: Augmentation (Model-Centric)
 
 **RAG augments the model with retrieved context.**
 
@@ -64,10 +76,11 @@ This is the most common question from technical evaluators. The answer is no, bu
 - No enforcement of architectural constraints
 - Model can ignore or misuse retrieved context
 - Similarity-based selection (semantic proximity)
+- **Continuity depends on what the model "remembers"**
 
 **Metaphor:** RAG is like giving the model a library. The model decides what to read and how to use it.
 
-### PCS: Governance
+### PCS: Governance (Substrate-Centric)
 
 **PCS governs whether the model runs at all.**
 
@@ -76,6 +89,7 @@ This is the most common question from technical evaluators. The answer is no, bu
 - Architectural constraints enforced before generation
 - Model cannot proceed without required state
 - Authority-based selection (governance topology)
+- **Continuity is preserved outside the model in structured state**
 
 **Metaphor:** PCS is like an operating system. The model is a process that only runs when the OS allows it.
 

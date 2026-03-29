@@ -4,6 +4,27 @@
 
 ---
 
+## Before Reading This
+
+You're about to read about Decision Records, Policy Enforcement Points, and other technical primitives.
+
+**Most readers will instinctively interpret these as "tools to make the model smarter" or "ways to preserve model state."**
+
+That's the wrong frame.
+
+These primitives exist to move authoritative cognition **out of the model** and into a persistent substrate. The model doesn't own these artifacts—it reasons over them. The model doesn't preserve them—the substrate does.
+
+Three things to keep separated:
+1. **Model-private reasoning** (activations, hidden states) - ephemeral, model-specific
+2. **Retrieved context** (RAG, docs) - advisory, not authoritative  
+3. **Substrate state** (decisions, constraints) - durable, model-agnostic
+
+PCS governs #3. It uses #2. It doesn't try to preserve #1.
+
+If you find yourself thinking "how does this help the model remember things?", you're collapsing these categories. The model doesn't remember. The substrate persists. The model reasons over what the substrate provides.
+
+---
+
 ## The Kernel Primitive
 
 **PCS implements identity-anchored cognitive state that persists outside the inference boundary and is deterministically governed.**

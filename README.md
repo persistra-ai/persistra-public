@@ -2,6 +2,22 @@
 
 **The Persistent Cognitive Standard**
 
+---
+
+## Read This First
+
+**Most AI architecture assumes the model is the cognitive core and everything else is support infrastructure.**
+
+**PCS starts from the opposite assumption.**
+
+Read that sentence again before continuing. If you skip this distinction, everything else will map onto the wrong frame.
+
+PCS does not try to make models smarter, preserve what's inside one model to transfer to another, or build better model memory. It moves authoritative cognition out of the model entirely. The model becomes an interchangeable reasoning engine. Continuity, governance, and state live in a model-agnostic substrate.
+
+This is not an incremental improvement to model-centric architecture. It's a different architectural premise.
+
+---
+
 **Persistra is a deterministic cognitive control plane for AI systems.**
 
 The model is the CPU. The substrate handles everything else.
@@ -259,12 +275,15 @@ Request NDA access at research@persistra.ai. Qualified engineering teams receive
 ```
 persistra-public/
 ├── README.md                    # This file
+├── WRONG_FRAME_RIGHT_FRAME.md  # Read this if you're about to suggest improvements
 ├── ARCHITECTURE_OVERVIEW.md     # Conceptual architecture (no mechanisms)
 ├── WHY_NOT_RAG.md              # Distinction from RAG
 ├── CAPABILITY_MAP.md           # What PCS covers
 ├── VALIDATION_SUMMARY.md       # Test results (no code)
 └── NDA_ACCESS.md               # How to request full access
 ```
+
+**→ If you're evaluating PCS and about to suggest improvements, read [WRONG_FRAME_RIGHT_FRAME.md](WRONG_FRAME_RIGHT_FRAME.md) first.**
 
 ---
 
