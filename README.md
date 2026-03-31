@@ -278,6 +278,7 @@ Request NDA access at research@persistra.ai. Qualified engineering teams receive
 persistra-public/
 ├── README.md                       # This file
 ├── SUBSTRATE_FIRST_THINKING.md    # How to think substrate-first (start here)
+├── PLATFORM_ECONOMICS.md          # PCS and frontier platform economics
 ├── WRONG_FRAME_RIGHT_FRAME.md     # Common misinterpretations and corrections
 ├── ARCHITECTURE_OVERVIEW.md        # Conceptual architecture (no mechanisms)
 ├── WHY_NOT_RAG.md                 # Distinction from RAG
@@ -286,11 +287,17 @@ persistra-public/
 └── NDA_ACCESS.md                  # How to request full access
 ```
 
-**Reading order for evaluators:**
+**Reading order for technical evaluators:**
 1. **SUBSTRATE_FIRST_THINKING.md** - Understand the cognitive leap
 2. **ARCHITECTURE_OVERVIEW.md** - See the architectural invariants
 3. **VALIDATION_SUMMARY.md** - Review the empirical evidence
 4. **WRONG_FRAME_RIGHT_FRAME.md** - Before suggesting improvements
+
+**Reading order for investors/partners:**
+1. **SUBSTRATE_FIRST_THINKING.md** - Understand the architectural premise
+2. **PLATFORM_ECONOMICS.md** - How PCS affects platform economics
+3. **CAPABILITY_MAP.md** - What PCS enables
+4. **VALIDATION_SUMMARY.md** - Evidence it works
 
 ---
 
