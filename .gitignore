@@ -16,3 +16,8 @@ Thumbs.db
 
 # This is a documentation-only repository
 # No source code, no test data, no implementation details
+
+# Internal-only documents - never publish
+PCS_RFC_TO_CONFORMANCE_MATRIX_*.md
+PCS_PRIMITIVE_TO_RFC_MAPPING_*.md
+generate-attestation-hashes.sh
