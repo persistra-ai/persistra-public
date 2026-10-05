@@ -249,6 +249,8 @@ Multi-day coding projects expose the problem immediately:
 
 **The software engineering implementation is designed to demonstrate that the substrate architecture works in practice.**
 
+**Run it:** The nine-act demo is available in [persistra-demos](https://github.com/persistra-ai/persistra-demos).
+
 ---
 
 ## Reference Implementation
