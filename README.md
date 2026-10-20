@@ -189,6 +189,16 @@ See [WHY_NOT_RAG.md](WHY_NOT_RAG.md) for the complete argument.
 
 ---
 
+## Why Not a Memory System?
+
+**Agent memory systems externalize recollection. PCS externalizes authority.**
+
+Memory systems answer "what should the model remember?" — everything they retrieve enters the model as advisory context. PCS answers "what is authoritative, and what is permitted?" — with governed admission, deterministic selection, runtime enforcement, and receipts. Two-thirds of the PCS conformance suite proves system invariants (determinism, failover, portability, replication) that do not parse for a memory layer.
+
+See [WHY_NOT_MEMORY.md](WHY_NOT_MEMORY.md) for the complete argument.
+
+---
+
 ## PCS Architectural Capabilities
 
 PCS is simultaneously:
