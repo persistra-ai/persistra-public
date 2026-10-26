@@ -28,11 +28,11 @@ This document provides validation results without exposing test code, implementa
 
 **Status:** ✅ **All Tests Passing**
 
-- **26 tests** across 3 validation suites
-- **312 machine-verified assertions**
+- **31 tests** across 3 validation suites plus standalone runtime tests
+- **364 machine-verified assertions**
 - **15 conformance tests** (PCS L1-L4 validation)
 - **8 hardware compatibility fixtures** (Tenstorrent CSE Phase 1)
-- **7 architectural invariants** validated
+- **6 architectural invariants** validated
 - **15 primitives** tested (6 Tier-1, 9 Tier-2)
 - **One-command reproducibility:** `./run_all.sh --mode audit`
 
@@ -238,11 +238,11 @@ All test contracts frozen at v1.0.0. No changes allowed without version incremen
 
 ### 1. The Architecture Works
 
-25 tests passing (312 machine-verified assertions) proves the architectural claims are implementable, not just theoretical.
+31 tests passing (364 machine-verified assertions) proves the architectural claims are implementable, not just theoretical.
 
 ### 2. The Invariants Hold
 
-7 invariants validated means the architectural guarantees are enforceable in practice.
+6 invariants validated means the architectural guarantees are enforceable in practice.
 
 ### 3. Real Models Work
 
@@ -300,12 +300,12 @@ git clone [private-repo-url]
 ./run_all.sh --mode audit
 
 # Expected output:
-# 25 tests passing
-# 312 machine-verified assertions
-# 15 conformance tests passing
-# 8 hardware compatibility fixtures validated
+# 25 tests passing (main suite)
+# 252 machine-verified assertions
 # All invariants validated
 # Cryptographic verification complete
+# (Repository total: 31 tests, 364 assertions including
+#  AVS-2P and standalone runtime tests, run separately)
 ```
 
 **Execution time:** ~3 minutes
@@ -337,6 +337,6 @@ git clone [private-repo-url]
 
 ## Summary
 
-**26 tests passing (312 machine-verified assertions). 15 conformance tests. 8 hardware compatibility fixtures. 7 invariants validated. 3 validation suites complete.**
+**31 tests passing (364 machine-verified assertions). 15 conformance tests. 8 hardware compatibility fixtures. 6 invariants validated. 3 validation suites complete.**
 
 **Version:** 1.0.0 (Public Specification)

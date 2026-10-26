@@ -226,10 +226,10 @@ PCS is cognitive infrastructure - the missing layer between applications and mod
 
 **The architecture is not theoretical. There is a working, tested implementation.**
 
-- ✅ **26 tests passing** (312 machine-verified assertions)
+- ✅ **31 tests passing** (364 machine-verified assertions)
 - ✅ **conformance tests** (PCS L1-L4 validation)
 - ✅ **8 hardware compatibility fixtures** (Tenstorrent CSE Phase 1)
-- ✅ **7 invariants validated** (frozen at v1.0.0)
+- ✅ **6 invariants validated** (frozen at v1.0.0)
 - ✅ **3 validation suites** (EVS, AVS, CTS)
 - ✅ **One-command reproducibility**
 - ✅ **Real model validation** (Claude, Llama)
@@ -352,7 +352,7 @@ PCS relocates where durable cognition lives in the AI stack. The model is the CP
 
 ### 2. Is it real?
 
-Yes. 26 tests passing (312 machine-verified assertions), 15 conformance tests, 8 hardware compatibility fixtures, 7 invariants validated, 3 validation suites. The reference implementation exists and is available under NDA.
+Yes. 31 tests passing (364 machine-verified assertions), 15 conformance tests, 8 hardware compatibility fixtures, 6 invariants validated, 3 validation suites. The reference implementation exists and is available under NDA.
 
 **Reading order for technical evaluators:**
 1. **SUBSTRATE_FIRST_THINKING.md** - Understand the cognitive leap
